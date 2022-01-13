@@ -18,3 +18,6 @@ THEN I find a concise, descriptive title
 
 Link to website 
 [HTML pre element](https://ernestosanchezcs.github.io/Code-Refractor/).
+
+Screenshot of website
+![Screenshot ](assets/images/01-html-css-git-homework-demo-screenshot.png)
