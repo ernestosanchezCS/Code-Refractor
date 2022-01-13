@@ -1,15 +1,18 @@
+/* <!-- applies to everything on page using * elemental tag--> */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* <!-- Actual Webpage Contents--> */
 body {
     background-color: #d9dcd6;
 }
 
 /* 
-<!-- changed all header class sections with elemental header tag--> */
+<!-- changed all header class sections with elemental header tag
+didnt need to be a class could just be header tag--> */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,12 +54,15 @@ a {
 p {
     font-size: 16px;
 }
-
+/* 
+<!-- image was being fetched from this css class style 
+changed it so that its pulled from html as best practice calls
+also changed height property to 100% as the image was getting 
+distorted and clipped by header--> */
 .hero {
-    height: 800px;
+    height: 100%;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
