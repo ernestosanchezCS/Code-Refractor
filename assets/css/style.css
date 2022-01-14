@@ -58,8 +58,9 @@ p {
 <!-- image was being fetched from this css class style 
 changed it so that its pulled from html as best practice calls
 also changed height property to 100% as the image was getting 
-distorted and clipped by header--> */
-.hero {
+distorted and clipped by header, also changed class to id and the 
+name to somethingmore relevant to the picture--> */
+#meeting {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
@@ -94,49 +95,58 @@ distorted and clipped by header--> */
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* changed from class to id type since they are unique and will not be reused */
+#benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h4 {
+/* changed from class to id type since they are unique and will not be reused */
+#benefit-lead h4 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+/* changed from class to id type since they are unique and will not be reused */
+#benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand {
+/* changed from class to id type since they are unique and will not be reused */
+#benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand h5 {
+/* changed from class to id type since they are unique and will not be reused */
+#benefit-brand h5 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand img {
+/* changed from class to id type since they are unique and will not be reused */
+#benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost {
+/* changed from class to id type since they are unique and will not be reused */
+#benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost h6 {
+/* changed from class to id type since they are unique and will not be reused */
+#benefit-cost h6 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost img {
+/* changed from class to id type since they are unique and will not be reused */
+#benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
