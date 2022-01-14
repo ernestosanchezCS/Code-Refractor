@@ -1,5 +1,12 @@
+Webpage Optimization and Accessibility Optimization
+
+To summarize we are looking to leave the code better then we found it.
+Nothing changes when you look at the website from given code appearance. 
+But the source code will be more appropriate and semantically logical. 
+
 User Story
-AS A marketing agency
+
+As A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 
@@ -15,6 +22,7 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
+
 
 Link to website 
 [HTML pre element](https://ernestosanchezcs.github.io/Code-Refractor/).
